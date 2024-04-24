@@ -1,3 +1,7 @@
+@font-face {
+  font-family: 'Fashion Victim';
+  src: url(fonts/fashion-victim.woff2) format('woff2');
+}
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
 
 * {
@@ -25,6 +29,17 @@ header {
   background-position: center, center;
   background-repeat: no-repeat, repeat-x;
   height: 360px;
+}
+
+h1.site-title {
+  font-family: 'Fashion Victim';
+  font-size: 6rem;
+  font-weight: normal;
+  text-align: center;
+}
+
+h1.site-title span {
+  margin: 0 2rem;
 }
 
 .product {
