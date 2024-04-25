@@ -46,6 +46,10 @@ h1.site-title span {
   margin-top: -5rem;
   padding: 3rem;
   background-color: #141518;
+  display: grid;
+  gap: 50px;
+  grid-template-columns: auto auto 1fr;
+  
 }
 
 .product__image {
@@ -53,7 +57,68 @@ h1.site-title span {
   height: auto;
 }
 
+.product__colors{
+  text-align: center;
+}
+
+
 .t-shirt {
   stroke: #000;
   stroke-width: 2;
 }
+
+.color-option {
+  width: 50px;
+}
+
+.color-option__box {
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  box-shadow: 0 0  10px 2px white;
+  margin: auto;
+}
+
+.color-option__name{
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.choose-colors{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+}
+
+#white {
+  background-color: white;
+}
+
+#red {
+  background-color: red;
+}
+
+#blue {
+  background-color: skyblue;
+}
+
+#black {
+  background-color: black;
+}
+
+.order {
+  align-self: flex-end;
+  justify-self: end;
+}
+
+.order__button {
+  background-color: #141518;
+  font-size: 1rem;
+  color: white;
+  border: 2px solid white;
+  border-radius: 20px;
+  padding: 10px 40px;
+  
+}
+
