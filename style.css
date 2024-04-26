@@ -91,6 +91,7 @@ h1.site-title span {
   height: 20px;
   border-radius: 50%;
   margin: 10px 10px;
+  border: 1px solid white
 }
 
 .color-option__box--selected {
@@ -126,13 +127,23 @@ h1.site-title span {
 }
 
 .order__button {
-  background-color: #141518;
   font-size: 1rem;
-  color: white;
-  border: 2px solid white;
+  border: 2px solid #b1b1b2;
   border-radius: 20px;
   padding: 0.6em 2.5em;
   font-size: clamp(0.8rem, 2vw, 1rem);
+  background-color: #525252;
+  color:#b1b1b2;
+}
+
+.order__button--enabled {
+  color: white;
+  background-color: #141518;
+  border: 2px solid white;
+}
+
+.order__button--enabled:hover{
+  box-shadow: 0 0  10px 2px white;
 }
 
 @media  screen and (min-width: 600px) {
