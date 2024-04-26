@@ -59,6 +59,7 @@ h1.site-title span {
   width: 6rem;
   height: auto;
   justify-self: center;
+  fill: red;
 }
 
 .product__colors{
@@ -89,9 +90,11 @@ h1.site-title span {
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  box-shadow: 0 0  10px 2px white;
   margin: 10px 10px;
-  /* display: inline-block; */
+}
+
+.color-option__box--selected {
+  box-shadow: 0 0  10px 2px white;
 }
 
 .color-option__name{
@@ -163,4 +166,3 @@ h1.site-title span {
     width: 50px;
   }
 }
-
