@@ -86,7 +86,6 @@ h1.site-title span {
 }
 
 .color-option__box {
-  background-color: white;
   width: 20px;
   height: 20px;
   border-radius: 50%;
@@ -112,7 +111,7 @@ h1.site-title span {
   background-color: red;
 }
 
-#blue {
+#skyblue {
   background-color: skyblue;
 }
 
@@ -146,13 +145,18 @@ h1.site-title span {
   box-shadow: 0 0  10px 2px white;
 }
 
+.message {
+  grid-row: 3;
+  grid-column: span 2;
+}
+
 @media  screen and (min-width: 600px) {
   /* header {
     height: 360px;
   } */
 
   .product {
-    gap: 50px;
+    gap: 20px 50px ;
     grid-template-columns: auto auto 1fr;
   }
   .product__colors {
@@ -175,5 +179,10 @@ h1.site-title span {
   .color-option {
     display: block;
     width: 50px;
+  }
+
+  .message {
+    grid-row: 2;
+    grid-column: span 3;
   }
 }
